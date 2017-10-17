@@ -96,3 +96,12 @@ There are exceptions to this title; many private clubs and religious organizatio
 **Provides for service animals**
 
 ## Title 4: Telecomms
+
+All American telecomms companies must take measures to provide for disabled customers.
+Leads to public installation of TTYs and TRSes.
+
+## Title 5: misc
+
+Title V includes technical provisions.
+It discusses, for example, the fact that nothing in the ADA amends, overrides or cancels anything in Section 504.
+Additionally, Title V includes an anti-retaliation or coercion provision.
