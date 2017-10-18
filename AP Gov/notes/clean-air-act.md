@@ -6,7 +6,7 @@
 
 ---
 
-# TItle 1: Programs and Activities
+# Title 1: Programs and Activities
 
 ## Part A: Air Quality and Emissions Limitations
 
@@ -93,7 +93,7 @@ This title established the EPA Office of Noise Abatement and Control to reduce n
  and other noise-related issues. 
 The agency was also assigned to run experiments to study the effects of noise.
 
-# Title 4A: Acid Deposition Control
+## Title 4A: Acid Deposition Control
 
 Addresses the issue of acid rain.
 
