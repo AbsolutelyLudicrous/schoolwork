@@ -1,0 +1,12 @@
+I feel like this is the wrong assignment, but it is 23:00 and I
+don't deserve to pass this class.
+a)
+	for(int i = 0; i<arr.length; i++){
+		if(arr[i].equals("Michael Jackson"){
+			//do whatever
+		}else{
+			//other thing
+		}
+b)
+	Null pointer.  It means we found a value of null, which Java hates.
+	It could be fixed by wrapping the whole program in a try-catch.

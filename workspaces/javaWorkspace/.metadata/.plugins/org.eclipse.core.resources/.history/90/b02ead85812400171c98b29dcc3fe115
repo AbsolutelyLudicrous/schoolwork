@@ -1,0 +1,7 @@
+
+public class child extends abstractClass{
+		public void fooMethod(){
+				System.out.println("Defined!");
+		}
+		
+}

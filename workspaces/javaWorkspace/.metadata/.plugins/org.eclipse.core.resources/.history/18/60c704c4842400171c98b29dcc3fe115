@@ -1,0 +1,16 @@
+
+public class child extends abstractClass{
+		public void fooMethod(){
+				System.out.println("Defined!");
+		}
+		private int barInt;
+		public child(){
+			barInt = 965840298;
+		}
+		public int getBarInt(){
+			return barInt;
+		}
+		public void setBarInt(int barRescue){
+			barInt = barRescue;
+		}
+}

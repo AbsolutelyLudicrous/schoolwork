@@ -1,0 +1,32 @@
+import java.io.File;
+
+public class child extends abstractClass{
+		public void fooMethod(){
+				System.out.println("Defined!");
+		}
+		private int barInt;
+		public child(){
+				barInt = 965840298;
+		}
+		public int getBarInt(){
+				return barInt;
+		}
+		public void setBarInt(int barRescue){
+				barInt = barRescue;
+		}
+		final public void killAllChildren(){
+				barInt = Integer.valueOf(null);	//will cause an exception
+				System.out.println("All instance variables set to null");
+		}
+		public void overrideMeDaddy(){
+				System.out.println("GNU Emacs is the one true text editor");
+		}
+		public void dontCallMe(/*FOR THE LOVE OF ALL THAT IS GOOD, DON'T DO IT*/){
+				//DON'T DO IT
+				File IMWARNINGYOU = new File("/");
+				IMWARNINGYOU.delete();			//THIS REALLY SHOULDN'T WORK, BUT YOU STILL SHOULDN'T DO IT
+				System.out.println("YOU FOOL");	//SO DON'T
+												//ESPECIALLY ON A UEFI SYSTEM, THAT'LL BREAK YOUR MOTHERBOARD
+												//JUST DON'T
+		}
+}

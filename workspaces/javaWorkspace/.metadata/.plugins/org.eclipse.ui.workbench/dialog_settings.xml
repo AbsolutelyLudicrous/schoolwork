@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="667" key="DIALOG_X_ORIGIN"/>
+		<item value="226" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="345" key="dialogHeight"/>
+		<item value="705" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.preferences.UserLibraryPreferencePage"/>
+			<item value="org.eclipse.ui.newWizard(newWizardId=org.eclipse.m2e.scm.internal.wizards.MavenCheckoutWizard)"/>
+			<item value="org.eclipse.ui.file.import(importWizardId=org.eclipse.m2e.scm.internal.wizards.MavenCheckoutWizard)"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
+		</list>
+		<list key="textArray">
+			<item value="build path"/>
+			<item value="maven"/>
+			<item value="mav"/>
+		</list>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item value="688" key="DIALOG_WIDTH"/>
+		<item value="1|Clear Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="841" key="DIALOG_HEIGHT"/>
+		<item value="84" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.m2e.scm.internal.wizards.MavenCheckoutWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+</section>
