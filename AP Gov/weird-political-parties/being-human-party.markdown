@@ -10,7 +10,7 @@
 
 **History in Brief:**
 
-
+The Being Human party was formed in 2004, and has been seemingly defunct since 2006.
 
 ---
 
