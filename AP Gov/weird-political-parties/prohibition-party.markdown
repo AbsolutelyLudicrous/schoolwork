@@ -1,4 +1,4 @@
-# Prohibtion Party
+# Prohibition Party
 
 ---
 
