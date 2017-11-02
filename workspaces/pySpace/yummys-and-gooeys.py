@@ -14,10 +14,11 @@ i=12
 while len(arr) > 15:
 	#print(arr)	#debugging
 	if(i>len(arr)):
-		i%=len(arr)	#when we loop around in the array
+		#i%=len(arr)	#when we loop around in the array
+		i-=len(arr)
 	removed.append(arr[i])
 	del arr[i]
-	i+=13
+	i+=12	#not 13 because we've already moved forward a space by deleting the index
 
 print(arr)
 print(removed)
