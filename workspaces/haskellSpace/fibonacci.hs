@@ -1,6 +1,4 @@
-fib x =
-	{-
-		calculate the fibonacci sequence up to index x
-	-}
-	f = [0,1]	--out initial index
-
+fib 0 = 0
+fib 1 = 1
+fib n = fib (n-1) + fib (n-2)
+-- holy shit haskell is actually insane
