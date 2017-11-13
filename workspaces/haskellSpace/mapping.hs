@@ -1,3 +1,1 @@
-main = do
-	let a = map sqrt [1,2,3,4,5]
-	print a
+main = show map sqrt [1,2,3,4,5]
