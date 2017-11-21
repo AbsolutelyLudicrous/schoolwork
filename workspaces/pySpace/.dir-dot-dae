@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+echo '  __                '" | TODO:"
+echo ' /__)    _/  /      '" | $(sed '1q;d' TODO)"
+echo '/     (/ /  /) () /)'" | $(sed '2q;d' TODO)"
+echo '      /             '" | $(sed '3q;d' TODO)"

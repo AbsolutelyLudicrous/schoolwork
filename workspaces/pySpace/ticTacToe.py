@@ -30,12 +30,13 @@ def displayBoard(bo):
 	print(bo[2])
 
 def checkVictory(bo):
-	for i in range(1,len(bo)):
-		for j in range(0,len(bo[0])):
+	for i in range(1,len(bo)):#cycle through the horizontally bits of bo
+		for j in range(0,len(bo[0])):#cycle through the vertically bits of bo
 			if bo[i][j] == bo[i-1][j]:
 				return True
 			if bo[j][i] == bo[j-1][i]:
 				return True
+	return False
 
 			
 testcases()
