@@ -31,10 +31,10 @@ def displayBoard(bo):
 
 def checkVictory(bo):
 	for i in range(1,len(bo)):#cycle through the horizontally bits of bo
+		if sum(bo[i]) == len(bo[i]) or sum(bo[i]) == 2*len(bo[i]):#on the horizontal, return true if every bit is set to the same value
+			return True
 		for j in range(0,len(bo[0])):#cycle through the vertically bits of bo
-			if bo[i][j] == bo[i-1][j]:
-				return True
-			if bo[j][i] == bo[j-1][i]:
+			if sum(bo[i][j]) == len(bo[i][j]) or sum(bo[i][j]) == 2*len(bo[i][j]):
 				return True
 	return False
 
