@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 
 	Simple program for fizzing your buzz
