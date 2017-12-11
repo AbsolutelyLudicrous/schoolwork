@@ -15,20 +15,12 @@
 """
 
 from sys import argv
+args=argv
 
-global total	#total point count
-global player	#player's ordered card stack
-global dealer	#dealer's ordered card stack
+global total=args[1]			#total point count
+global player=args[1:(len(args)/2)]	#player's ordered card stack
+global dealer=args[((len(args)/2)+1):]	#dealer's ordered card stack
 debug=True
-
-def parse(args):
-	passback=(()()())	#empty list of lists that we're going to be returning
-	passback[1]=args[1];del args[1]	#pops the initial total off of the arguments and pushes it to the return LoL.
-	passback[2]=args[:(len(args)/2)]	#| the former half of the args list is added to passback
-	passback[3]=args[(len(args)/2):]	#| similar, except with former half
-	if debug:				#| I actually am kinda proud of this solution, it allows for any odd number of inputs to work
-		print("Returning LoL formatted args as", passback)
-	return passback
 
 def cards(car):
 	"""
@@ -58,3 +50,5 @@ def cards(car):
 		# It's undefined in the spec, so I've left it undefined here.
 	if debug:
 		print("Reached end of cards function with returning a value, panic!")
+
+
