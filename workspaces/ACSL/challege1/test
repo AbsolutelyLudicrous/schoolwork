@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+./99.py 75 7 3 8 8 7 T 5 A 6
+echo Should output \"103, player\"
