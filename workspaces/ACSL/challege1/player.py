@@ -58,7 +58,9 @@ class player:
 		else:
 			out=[]	#temporary empty list
 			for card in self.cards:	#this loop converts all face cards into actual numeric values
-				if card not in range(2,9):	#if the card is not a number card
+				if debug:
+					print("Turning card ",card," into a hard numeric value. card has type ",type(card))
+				if int(card) not in range(2,9):	#if the card is not a number card
 					out.append({	"T":10,
 							"A":self.aceValue,
 							"J":self.jackValue,

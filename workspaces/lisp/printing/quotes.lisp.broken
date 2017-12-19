@@ -1,0 +1,11 @@
+#!/usr/bin/sbcl --script
+
+;; Bahaha, I suck!
+;; Also tutorialspoint sucks, but whatever
+;; I'll maybe revisit this in some days when I know more lisp
+
+(write-line "Lisp has shell-ish quoting!")
+(write-line "Meaning expressions in double quotes get evalled, but not single quotes!")
+(write-line "e.g.:")
+(write-line '(+ 1 2 3 ))
+(write-line "(write \"foo bar baz\")")
