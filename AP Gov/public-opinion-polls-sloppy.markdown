@@ -11,50 +11,50 @@
 ---
 
 1. Identify the subject of the Poll.
-   The title of the poll might be biased, or not accurately describe the actual poll.
+	The title of the poll might be biased, or not accurately describe the actual poll.
 	a. Does the title of the poll seem biased? Explain
 	b. Does the title accurately describe the subject of the poll? Explain
 
 2. Identify the source of the Poll.
-   Polls can be biased.
+	Polls can be biased.
 	a. What is the source of the poll? Give a basic background/explanation/bio of the source.
 	b. Might this source be biased? Explain.
 	c. If you don’t recognize the name of the polling source, how might you find out more about it?
 
 3. Determine the Sampling Method.
-   To achieve accuracy by representing the entire target population of a poll, sample must be random.
-   Non-random samples will "skew" the results.
-   For example, "mail-in" and "click in" polls are notoriously unreliable since only people who feel strongly about the subject are likely to respond.
+	To achieve accuracy by representing the entire target population of a poll, sample must be random.
+	Non-random samples will "skew" the results.
+	For example, "mail-in" and "click in" polls are notoriously unreliable since only people who feel strongly about the subject are likely to respond.
 	a. How was the sample selected?
 	b. Can you see any problems with the sampling method?
 
 4. Identify the Sample Size.
-   Larger samples do **not** mean more accurate polls.
-   They can reduce the margin of error, however.
-   In general, national polls sample size are larger than 500 people.
+	Larger samples do **not** mean more accurate polls.
+	They can reduce the margin of error, however.
+	In general, national polls sample size are larger than 500 people.
 	a. What is the sample size of this poll?
 	b. Do you judge it as sufficient? Why or Why not?
 
 5. Consider the *margin of error*.
-   This is important.
-   The margin of error is the range of results a pollster could expect if the sample size were infinite.
-   Suppose a poll indicates that the Republican candidate has 52% of the votes and the Democrat has 48%.
-   With a margin of error of +/- 4% the results could be opposite the expected result.
+	This is important.
+	The margin of error is the range of results a pollster could expect if the sample size were infinite.
+	Suppose a poll indicates that the Republican candidate has 52% of the votes and the Democrat has 48%.
+	With a margin of error of +/- 4% the results could be opposite the expected result.
 	a. What is the margin of error of the poll? Is the poll valid and reliable?
 
 6. Examine the wording of the Questions.
-   Questions that are confusing or not neutral will skew the poll results.
+	Questions that are confusing or not neutral will skew the poll results.
 	a. Are the questions clear? Explain.
 	b. Are the questions neutral? Explain.
 
 7. Examine the Answer Categories.
-   Polls rarely allow for respondents to supply their own answers.
-   Wording of the set of answers must be clear and unbiased.
+	Polls rarely allow for respondents to supply their own answers.
+	Wording of the set of answers must be clear and unbiased.
 	a. Are the answer choices comprehensive? Do they include all possible answers to the question?
 	b. Is the wording of the answers clear and unbiased? Explain
 
 8. Evaluate the results.
-   Pollsters usually provide written generalizations about poll results.
+	Pollsters usually provide written generalizations about poll results.
 	a. Are the summary statements supported by the actual poll results? Explain.
 	b. What is your general opinion about the poll? Do you agree with the results? Explain.
 
@@ -63,10 +63,10 @@
 ## LGBT Stuffs:
 
 1. Identify the subject of the Poll.
-   The title of the poll might be biased, or not accurately describe the actual poll.
+	The title of the poll might be biased, or not accurately describe the actual poll.
 
-   Gay people, human being attracted to the same gender.
-   The poll uses the phrase "gays and lesbians".
+	Gay people, human being attracted to the same gender.
+	The poll uses the phrase "gays and lesbians".
 
 	a. Does the title of the poll seem biased? Explain
 
@@ -79,9 +79,9 @@
 
 
 2. Identify the source of the Poll.
-   Polls can be biased.
+	Polls can be biased.
 
-   Suffolk University and USA Today.
+	Suffolk University and USA Today.
 
 	a. What is the source of the poll? Give a basic background/explanation/bio of the source.
 
@@ -105,11 +105,11 @@
 
 
 3. Determine the Sampling Method.
-   To achieve accuracy by representing the entire target population of a poll, sample must be random.
-   Non-random samples will "skew" the results.
-   For example, "mail-in" and "click in" polls are notoriously unreliable since only people who feel strongly about the subject are likely to respond.
+	To achieve accuracy by representing the entire target population of a poll, sample must be random.
+	Non-random samples will "skew" the results.
+	For example, "mail-in" and "click in" polls are notoriously unreliable since only people who feel strongly about the subject are likely to respond.
 
-   N/A - Poll method not given
+	N/A - Poll method not given
 
 	a. How was the sample selected?
 
@@ -122,11 +122,11 @@
 
 
 4. Identify the Sample Size.
-   Larger samples do **not** mean more accurate polls.
-   They can reduce the margin of error, however.
-   In general, national polls sample size are larger than 500 people.
+	Larger samples do **not** mean more accurate polls.
+	They can reduce the margin of error, however.
+	In general, national polls sample size are larger than 500 people.
 
-   1000 people, nationwide
+	1000 people, nationwide
 
 	a. What is the sample size of this poll?
 
@@ -140,10 +140,10 @@
 
 
 5. Consider the *margin of error*.
-   This is important.
-   The margin of error is the range of results a pollster could expect if the sample size were infinite.
-   Suppose a poll indicates that the Republican candidate has 52% of the votes and the Democrat has 48%.
-   With a margin of error of +/- 4% the results could be opposite the expected result.
+	This is important.
+	The margin of error is the range of results a pollster could expect if the sample size were infinite.
+	Suppose a poll indicates that the Republican candidate has 52% of the votes and the Democrat has 48%.
+	With a margin of error of +/- 4% the results could be opposite the expected result.
 
 	a. What is the margin of error of the poll? Is the poll valid and reliable?
 
@@ -153,7 +153,7 @@
 
 
 6. Examine the wording of the Questions.
-   Questions that are confusing or not neutral will skew the poll results.
+	Questions that are confusing or not neutral will skew the poll results.
 
 	a. Are the questions clear? Explain.
 
@@ -173,8 +173,8 @@
 
 
 7. Examine the Answer Categories.
-   Polls rarely allow for respondents to supply their own answers.
-   Wording of the set of answers must be clear and unbiased.
+	Polls rarely allow for respondents to supply their own answers.
+	Wording of the set of answers must be clear and unbiased.
 
 	a. Are the answer choices comprehensive? Do they include all possible answers to the question?
 
@@ -197,7 +197,7 @@
 
 
 8. Evaluate the results.
-   Pollsters usually provide written generalizations about poll results.
+	Pollsters usually provide written generalizations about poll results.
 	a. Are the summary statements supported by the actual poll results? Explain.
 	b. What is your general opinion about the poll? Do you agree with the results? Explain.
 
