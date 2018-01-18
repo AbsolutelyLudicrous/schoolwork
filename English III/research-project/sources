@@ -1,2 +1,16 @@
+Why should you use the FHS?
+
 https://www.unix.com/man-page/FreeBSD/7/hier/
 	FreeBSD man hier
+
+http://man7.org/linux/man-pages/man7/hier.7.html
+	Linux hierarchy manpage
+
+https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+	The standard's Wikipedia entry
+
+https://wiki.linuxfoundation.org/lsb/fhs
+	Official FHS spec home page
+
+http://refspecs.linuxfoundation.org/FHS_2.3/fhs-2.3.html
+	HTML FHS spec
