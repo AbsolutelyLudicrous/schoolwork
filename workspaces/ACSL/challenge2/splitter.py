@@ -12,13 +12,6 @@ debug=True
 def detectCompleted(fullex):
 	return "[]" if ("[" in fullex and "]" in fullex) else "()"
 
-def filterCompletes(fullex):
-	#method to filter out any complete expressions, subexpressions which cannot be modified.
-	parsefor = detectCompleted(fullex)
-	if debug:
-		print("Detected completed grouper: ", parsefor)
-	return None
-
 def detectInternExtern(fullex):
 	#method to detect if we have an external or an engulfed expression
 	#returns the type of expression, intern or extern, and the completed subexpression
@@ -28,8 +21,9 @@ def detectInternExtern(fullex):
 	if debug:print("Completed subexp detected as: ",compsubexp)
 	return [
 		("extern" if not ("[" in compsubexp and "]" in compsubexp) else "intern"),
-		compsubexp
-	]
+		compsubexp]
+
+def
 
 if __name__=="__main__":
 	#test cases
@@ -39,6 +33,6 @@ if __name__=="__main__":
 		"[ ( 5 + 5 - 2 ] * 5"]
 	print("Test cases: ",exes)
 	print("Testing completion filterer")
-	for x in exes:print(filterCompletes(x))
+	for x in exes:print(detectCompleted(x))
 	print("Testing internal/external detecter")
 	for x in exes:print(detectInternExtern(x))
