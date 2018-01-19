@@ -11,6 +11,10 @@ debug=True
 
 if __name__="__main__":
 	#test cases
+	exes=[
+	"[2 + 3 * 8 - 3 ) ] + 6",
+	"[ ( 2 - 5 ) + 6",
+	"[ ( 5 + 5 - 2 ] * 5"]
 
 def filterCompletes(fullex):
 	#method to filter out any complete expressions, subexpressions which cannot be modified.
