@@ -21,6 +21,7 @@ def filterCompletes(fullex):
 
 def detectInternExtern(fullex):
 	#method to detect if we have an external or an engulfed expression
+	#returns the type of expression, intern or extern, and the completed subexpression
 	parsefor = detectCompleted(fullex)
 	if debug:print("Detected completed grouper: ", parsefor)
 	compsubexp = fullex[fullex.index(parsefor[0]):fullex.index(parsefor[1])+1]	#string representing the completed subexpression
