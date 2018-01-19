@@ -25,7 +25,10 @@ def detectInternExtern(fullex):
 	if debug:print("Detected completed grouper: ", parsefor)
 	compsubexp = fullex[fullex.index(parsefor[0]):fullex.index(parsefor[1])+1]	#string representing the completed subexpression
 	if debug:print("Completed subexp detected as: ",compsubexp)
-	return None
+	return [
+		("extern" if not ("[" in compsubexp and "]" in compsubexp) else "intern"),
+		compsubexp
+	]
 
 if __name__=="__main__":
 	#test cases
