@@ -9,17 +9,16 @@
 
 debug=True
 
-if __name__="__main__":
+def filterCompletes(fullex):
+	#method to filter out any complete expressions, subexpressions which cannot be modified.
+	parsefor = "\[*\]" if ("[" in fullex and "]" in fullex) else "\(*\)"
+	if debug:
+		print("We are parsing the full expression for ", parsefor)
+
+if __name__=="__main__":
 	#test cases
 	exes=[
 	"[2 + 3 * 8 - 3 ) ] + 6",
 	"[ ( 2 - 5 ) + 6",
 	"[ ( 5 + 5 - 2 ] * 5"]
-
-def filterCompletes(fullex):
-	#method to filter out any complete expressions, subexpressions which cannot be modified.
-	parsefor = "\[*\]"				#regex for anything inside two brackets
-		if ("[" in fullex and "]" in fullex)	#...if we have completed brackets
-		else "\(*\)"				#or if we don't
-	if debug:
-		print("We are parsing the full expression for ", parsefor)
+	for x in exes:print(filterCompletes(x))
