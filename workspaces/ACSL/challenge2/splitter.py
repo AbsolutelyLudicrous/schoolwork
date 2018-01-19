@@ -23,8 +23,6 @@ def detectInternExtern(fullex):
 		("extern" if not ("[" in compsubexp and "]" in compsubexp) else "intern"),
 		compsubexp]
 
-def
-
 if __name__=="__main__":
 	#test cases
 	exes=[
