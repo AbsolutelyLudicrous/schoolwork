@@ -13,12 +13,13 @@ def filterCompletes(fullex):
 	#method to filter out any complete expressions, subexpressions which cannot be modified.
 	parsefor = "\[*\]" if ("[" in fullex and "]" in fullex) else "\(*\)"
 	if debug:
-		print("We are parsing the full expression for ", parsefor)
+		print("Detected completed grouper: ", parsefor)
 
 if __name__=="__main__":
 	#test cases
 	exes=[
-	"[2 + 3 * 8 - 3 ) ] + 6",
-	"[ ( 2 - 5 ) + 6",
-	"[ ( 5 + 5 - 2 ] * 5"]
+		"[2 + 3 * 8 - 3 ) ] + 6",
+		"[ ( 2 - 5 ) + 6",
+		"[ ( 5 + 5 - 2 ] * 5"]
+	print("Test cases: ",exes)
 	for x in exes:print(filterCompletes(x))
