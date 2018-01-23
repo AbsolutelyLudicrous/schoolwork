@@ -13,8 +13,10 @@ def detectCompleted(fullex):
 	return "[]" if ("[" in fullex and "]" in fullex) else "()"
 
 def detectInternExtern(fullex):
-	#method to detect if we have an external or an engulfed expression
-	#returns the type of expression, intern or extern, and the completed subexpression
+	"""
+	method to detect if we have an external or an engulfed expression
+	returns the type of expression, intern or extern, and the completed subexpression
+	"""
 	parsefor = detectCompleted(fullex)
 	if debug:print("Detected completed grouper: ", parsefor)
 	compsubexp = fullex[fullex.index(parsefor[0]):fullex.index(parsefor[1])+1]	#string representing the completed subexpression
@@ -24,7 +26,8 @@ def detectInternExtern(fullex):
 		compsubexp]
 
 if __name__=="__main__":
-	#test cases
+	#run test cases
+	print("Running debugging main method, import the splitter as a module to properly use its functions.")
 	exes=[
 		"[2 + 3 * 8 - 3 ) ] + 6",
 		"[ ( 2 - 5 ) + 6",

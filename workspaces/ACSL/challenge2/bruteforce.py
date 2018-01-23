@@ -11,3 +11,12 @@
 	We can detect this by detecting completed bracks/parens, and checking if that string splice contains a brack/paren.
 
 """
+
+import splitter
+
+debug=True
+
+fullex=input(" > ")	# the full expression to be parsed
+
+intext=splitter.detectInternExtern(fullex)[0]	#is this an internal or an external expression?
+complicater=splitter.detectInternExtern(fullex)[0]	#the subexpression which will be a bitch to parse
