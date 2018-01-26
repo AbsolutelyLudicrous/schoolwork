@@ -38,3 +38,34 @@ Voting for a third party is considered a waste of one's vote, as the third party
 The Electoral College prevents Americans from voting with their true feelings and instead voting for a major party.
 Other nations lack this political binary, and have more active third parties.
 Third parties are bad, because they allow minority groups to gain power.
+
+Additionally, the Electoral College allows low-population states containing a minor amount of people to gain power, which is a good thing.
+Not having minorities represented in Congress would be simply undemocratic.
+
+The final benefit of the Electoral College is that it places a heavy importance on the states, not the people.
+This is rooted in federalism, and the idea that the United States is less of a nation and more of a group of collaborating states.
+The Electoral College reinforces this idea, even if it serves a largely ceremonial purpose.
+
+Despite these advantages, the Electoral College does have problems.
+
+For one thing, the popular vote and the actual winner don't always agree.
+The people themselves don't actually choose their own president.
+This is intentional, because the Founding Fathers believed that the people were incapable of choosing an adequate leader.
+
+For another thing, the Electoral College devalues the votes of people in large states.
+Because each state gets a flat two-elector bonus from the Senate, small states get a disproportionately higher percentage boost.
+Massive California gets just three percent of its electors from the Senate boost, whereas tiny Rhode Island gets fully half its votes from the Senate boost.
+People in large states have proportionately less voting power than people in small states.
+
+Some people propose solving these problems by removing the Electoral College, fully 60% of voters would like to see it gone.
+However, this removes the benefits of the College, and introduces several disadvantages.
+One disadvantage is that the campaign tactic of being less bad than your opponent becomes viable.
+Candidates could run on the basis of being less bad, opposed to better, than their opponent.
+This famously happened in 1991 in Louisiana, which had such a gubernatorial election system.
+Voters were forced to choose between electing a corrupt politician and electing literal former Grand Wizard of the Ku Klux Klan David Duke.
+
+That isn't to say the College is unreformable, some reforms can work.
+
+For example, the elimination of faithless electors.
+While never actually having been a problem, this removes the possibility of an elector "going rogue" and voting for a candidate they deem to be better, instead of the one the people told them to vote for.
+This also makes the position solely honorary.
