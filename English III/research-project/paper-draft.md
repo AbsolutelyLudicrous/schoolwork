@@ -85,5 +85,19 @@ This is because multi-tree layouts are finnicky and require special care to whic
 In an FHS-compliant filesystem, temporary data can be relied on to be in `/var` on `/tmp`.
 Systems which adhere to both the FHS and the XDG Base Directory Specification be relied on to have user-specific data in an XDG Directory (Bastian, Lortie, Poettering, the Freedesktop Group).
 XDG Variables can be obtained by running `env | grep XDG` in a POSIX shell equipped with `coreutils` or equivalent.
+No such assurance of location exists on a non-FHS system.
+On a non-FHS compliant system, a program must take the time to search the filesystem for where its files are, or ask the user.
+This slows down loading and interrupts workflow.
 
-
+Programs on an FHS compliant system are typically located in `/bin/`, `/usr/bin/`, `/sbin/`, or `/usr/sbin/`.
+`bin` is short for "binary", a term for a compiled machine-executable program, opposed to the raw source code of a program.
+`sbin` is similar, it is short for "superuser binary", binarys located in `sbin` are meant to only be excuted by root, the superuser, an all-powerful user account for the purpose of performing important systems administration tasks.
+The reason that `bin` and `sbin` are seemingly duplicated is because, traditionally, `/usr/` might be mounted from a seperate disk, and `/usr/bin/` is a subdirectory of `/usr/`.
+If the `/usr/` disk were to fail, only non-critical binarys are lost.
+`/bin/` and `/sbin/` are reserved for system-critical binarys, programs which can not be lost without undergoing catastrophic system failure.
+This makes sense, disks fail all the time.
+The failure of a single disk should not bring down an entire system.
+Compare to a non-FHS compliant system, such as Windows.
+Windows stores all of its programs in C:\, even system-critical ones.
+If the C: disk on a Windows system were to fail, the system would be unrecoverable.
+Obviously, being able to recover from hardware failure is generally beneficial.
