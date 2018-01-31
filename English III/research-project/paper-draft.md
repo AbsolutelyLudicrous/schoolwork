@@ -30,7 +30,7 @@ The most common form is the hard disk drive, the HDD.
 In an HDD, around five small disks spin at thousands of rounds per minute, and are read from or written to with a read/write head.
 An HDD can be thought of as working like a gramophone.
 
-#### Disk Failure:
+### Disk Failure:
 
 To read or write to a disk, the read/write head must make contact with the disk.
 Modern disks can spin at around seven thousand RPM;
@@ -59,7 +59,7 @@ A literal `/`, usually pronounced as "slash" or "root".
 Below `/` are other directories, usually `/bin/`,`/usr/`,`/lib/` and others.
 Below those directories are yet more directories.
 
-The layout of these directories is specified by the Filesystem Hierarchy Standard.
+The layout of these directories is specified by the Filesystem Hierarchy Standard (The Linux Foundation).
 
 ### Mounting:
 
@@ -72,5 +72,18 @@ The whole filesystem maintains just the one tree, there are no seperate trees.
 
 Mounting allows the filesystem to be spread across multiple disks.
 For example, it is common to have `/home/` on a seperate partition or seperate disk.
+
+### End informational preview
+
+Conformation to the FHS is good, as it keeps the system simple, allows easy rescue of dead or dying systems, saves disk usage, and allows faster access to data.
+
+Programs that run on your computer generally need to store data on the filesystem.
+Common examples of such inter-session data include web browser history or a music library.
+To operate on this data, the program needs to know where it is stored.
+For this reason, the single "tree" hierarchy layout is better than multi-"tree" layouts.
+This is because multi-tree layouts are finnicky and require special care to which tree is being written to or read from (Stack Overflow, Superuser).
+In an FHS-compliant filesystem, temporary data can be relied on to be in `/var` on `/tmp`.
+Systems which adhere to both the FHS and the XDG Base Directory Specification be relied on to have user-specific data in an XDG Directory (Bastian, Lortie, Poettering, the Freedesktop Group).
+XDG Variables can be obtained by running `env | grep XDG` in a POSIX shell equipped with `coreutils` or equivalent.
 
 
