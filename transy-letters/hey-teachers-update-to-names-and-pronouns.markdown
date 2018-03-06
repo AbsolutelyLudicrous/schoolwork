@@ -13,8 +13,7 @@ I pronounce it as "Ess-tihr".
 I originally came out as just Danne, that was because I hadn't chosen a first name yet.
 Sorry about that.
 
-I'm still largely okay with going by Danne, just for this year, because I'm still largely closeted in many of my classes.
-I'd prefer to be addressed as Eostre, however.
+I'm still okay with going by Danne, just for this year, because I'm still largely closeted in many of my classes.
 
 ---
 

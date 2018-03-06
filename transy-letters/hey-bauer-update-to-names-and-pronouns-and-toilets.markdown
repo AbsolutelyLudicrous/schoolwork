@@ -21,4 +21,5 @@ How would I get the paperwork to your registrar over the summer, if I needed to?
 
 I can't use the clinic bathroom, it's not private at all and I get some weird looks.
 It's not pleasant, so I've been avoiding it.
-[BIT ABOUT STAFF TOILETS]
+Is there any alternative restroom available?
+The clinic is really not an option.
