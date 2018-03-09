@@ -1,6 +1,6 @@
 Hey hey hey
 
-If you're getting this email, it's because I'm out to you as trasngender.
+If you're getting this email, it's because I'm out to you as transgender.
 
 I just need to update you on two things, names and pronouns.
 
