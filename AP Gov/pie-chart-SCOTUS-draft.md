@@ -1,10 +1,9 @@
 Precedent:
-	20%
-	Planned parenthood v casey
-	Roe v Wade
+	10%
+	Brown v Board & Dredd Scott
 
 Judicial Activism:
-	25%
+	35%
 	Brown v Board
 		The court clearly did the right thing and was all "Racism is bad"
 	Miranda Rights
@@ -12,6 +11,8 @@ Judicial Activism:
 		Rights you do not know you have are rights you do not have
 	McCulloch v Maryland
 		Establish supremacy of federal over states
+	Brandenburg v Ohio
+		Freedom of speech
 
 Original Intent:
 	05%
